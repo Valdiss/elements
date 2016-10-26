@@ -1,6 +1,6 @@
 button{
   border: 1px solid black;
-  box-shadow: 20px 20px 20px black;
+  box-shadow: 20px 20px 2px black;
 }
 
 button:hover{
