@@ -1,8 +1,30 @@
-button{
+.button{
+  display: inline-block;
   border: 1px solid black;
-  box-shadow: 20px 20px 2px black;
+  box-shadow: 2px 2px 2px black;
+  padding: 10px;
+  border-radius: 15%;
+  transition-duration: 0.5s;
 }
 
-button:hover{
+.button:hover{
+  box-shadow: none;
+  background-color: #2A92FF;
+  color: white;
+  transform: translateY(5px);
+}
+.button.h{
+  background-color: #B5CC0D;
+}
 
+.button.h:hover {
+  background-color: #0B5DB2;
+}
+
+.button.alert{
+  background-color: #FF5143;
+}
+
+.button.alert:hover{
+  background-color: #0B5DB2;
 }
